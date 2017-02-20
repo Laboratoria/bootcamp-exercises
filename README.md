@@ -1,4 +1,4 @@
-##Ejercicios Bootcamp
+#Ejercicios Bootcamp
 
 Este repositorio muestra los ejercicios necesarios para el curso Bootcamp de Laboratoria.
 
@@ -19,7 +19,7 @@ Existen 3 tipos de folder:
  2. Folder de ejercicio (pertenece a folder de lección)
  3. Folder de pruebas (pertenece a folder de ejercicio)
 
-#Instalación
+##Instalación
 
 	git clone https://github.com/Laboratoria/bootcamp-exercises
 	cd bootcamp-exercises
