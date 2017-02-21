@@ -1,17 +1,19 @@
 #Ejercicios Bootcamp
 
-Este repositorio muestra los ejercicios necesarios para el curso Bootcamp de Laboratoria.
+Esta rama muestra la forma de crear una nueva unidad de ejercicios dentro del repositorio de bootcamp
 
 ## Folder Organization
 
-Los ejercicios se organizan de la siguiente manera (se usan nombres de prueba)
+Los ejercicios se organizan de la siguiente manera
 
     .
-    ├── 02-tdd
-	    ├── ejercicio-01
-		    ├── tests
-	    ├── ejercicio-02
-		    ├── tests
+    ├── XX-leccion-name
+	    ├── ejercicio-XX
+          ├── ejercicio-XX.js
+		      ├── tests
+              ├── ejercicio-XX_test.js
+
+XX es el __número__ de la lección y/o ejercicio
 
 Existen 3 tipos de folder:
 
@@ -21,10 +23,13 @@ Existen 3 tipos de folder:
 
 ##Instalación
 
-	git clone https://github.com/Laboratoria/bootcamp-exercises
-	cd bootcamp-exercises
-	cd nombre_de_folder_de_leccion
-	npm install
+Necesitas [Mocha](https://mochajs.org/) para crear pruebas, instalalo de manera global con:
+
+  npm install -g mocha
+
+##Creación de pruebas
+
+TO DO: Crear tutorial de creación de pruebas unitarias
 
 ##Ejecución
 Correr las pruebas unitarias con:
