@@ -1,0 +1,14 @@
+{
+  "name": "02-tdd",
+  "version": "1.0.0",
+  "description": "Exercices for bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laboratoria",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
