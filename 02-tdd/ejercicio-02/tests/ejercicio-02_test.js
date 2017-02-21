@@ -9,7 +9,10 @@ describe('busquedaLinear', function(){
     })
 
     it('should return the index of the item if it is found', function(){
-      assert.equal(Busqueda.busquedaLinear([1,2,3],2),1)
+      assert.equal(Busqueda.busquedaLinear(
+        [1,2,3],
+        2),
+        1)
     })
 
     it('should raise an error if the array param is missing', function(){
@@ -21,10 +24,10 @@ describe('busquedaLinear', function(){
     })
 
     it('should return ONLY the first match if more than one searched values are in the array', function(){
-      assert.equal(Busqueda.busquedaLinear([1,2,2,3]),1)
+      assert.equal(Busqueda.busquedaLinear([1,2,2,3],2),1)
     })
 
     it('should not accept any wrong param type', function(){
-      assert.equal(Busqueda.busquedaLinear("string",false),7)
+      assert.equal(Busqueda.busquedaLinear("string",false),"Error de dato")
     })
 })

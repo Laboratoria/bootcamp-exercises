@@ -13,5 +13,6 @@ describe('suma', function(){
 
     it('should add the numbers even if they are strings', function(){
       assert.equal(Calculadora.suma(2,"2"),4)
+      assert.notEqual(Calculadora.suma(2,"2"),"22")
     })
 })
