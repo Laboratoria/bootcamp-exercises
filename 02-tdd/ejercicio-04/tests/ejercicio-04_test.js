@@ -5,7 +5,7 @@ var Mate = require('../ejercicio-04.js')
 describe('fibonacci', function(){
 
   it("should return the correct fibonnaci secuences",function(){
-    assert.equal(Mate.fibonacci(3),[0,1,1])
+    assert.deepEqual(Mate.fibonacci(3),[0,1,1])
   })
 
   it("should raise an error when an invalid upper limit is set",function(){
