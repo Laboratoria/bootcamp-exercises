@@ -1,8 +1,9 @@
-function busquedaLinear (array,itemToSearch) {
-  //Escribe tu codigo aqui
+function busquedaLinear (arreglo, itemBuscado) {
+    // Escribe tu código aquí
+    
 }
 
-//NO TOCAR ESTE CODIGO O EXPLOTARA LA PC EN 10 SEGUNDOS
+// NO TOCAR ESTE CÓDIGO O EXPLOTARÁ LA PC EN 10 SEGUNDOS
 if(typeof exports !== 'undefined') {
     exports.busquedaLinear = busquedaLinear;
 }

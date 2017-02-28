@@ -1,12 +1,14 @@
 {
   "name": "02-tdd",
   "version": "1.0.0",
-  "description": "Exercices for bootcamp",
-  "main": "index.js",
+  "description": "Ejercicios de Bootcamp en Laboratoria",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-1": "mocha ejercicio-01/",
+    "test-2": "mocha ejercicio-02/",
+    "test-3": "mocha ejercicio-03/",
+    "test-4": "mocha ejercicio-04/"
   },
-  "author": "Laboratoria",
+  "author": "Laboratoria <sumate@laboratoria.la>",
   "license": "ISC",
   "devDependencies": {
     "mocha": "^3.2.0"
