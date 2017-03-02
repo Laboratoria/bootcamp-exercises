@@ -1,5 +1,4 @@
-//Implementar una funcion que calcule el factorial de
-// un número
+//Implementar una funcion que calcule la conjetura de collatz para un número
 
 // si la consola entra en un ciclo infinito de iteración,
 // se puede romper presionando ctrl + c en tu teclado

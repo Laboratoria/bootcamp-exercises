@@ -6,12 +6,7 @@
 
 function factorial(n) {
   //Escribe tu codigo aqui
-  if(n == 1){
-    return 1
-  }
-  else{
-    return n * factorial(n-1)
-  }
+  
 }
 
 //NO TOCAR ESTE CODIGO O EXPLOTARA LA PC EN 10 SEGUNDOS
