@@ -1,0 +1,13 @@
+{
+  "name": "09-data-structures",
+  "version": "1.0.0",
+  "description": "Ejercicios de Bootcamp en Laboratoria",
+  "scripts": {
+    "test-1": "mocha ejercicio-01/tests/ejercicio-01_test.js"
+  },
+  "author": "Laboratoria <sumate@laboratoria.la>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
