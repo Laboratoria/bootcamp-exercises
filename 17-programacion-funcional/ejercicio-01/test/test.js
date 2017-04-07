@@ -15,6 +15,8 @@ describe('creditCardNumber', function() {
 
     it("it should return an error if we dont have 16 digits", function() {
         assert.equal(Validator.isValidCard(123), "Faltan numeros");
+        assert.equal(Validator.isValidCard(1), "Faltan numeros");
+
     });
 
     it("it should return true if valid credit card number is entered", function() {
