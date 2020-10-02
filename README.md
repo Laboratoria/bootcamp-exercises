@@ -19,12 +19,14 @@ Existen 3 tipos de carpetas:
  2. Carpeta de ejercicio (pertenece a la carpeta de la lección)
  3. Carpeta de pruebas (pertenece a la carpeta del ejercicio)
 
+
 ## Instalación
 
 	git clone https://github.com/Laboratoria/bootcamp-exercises
 	cd bootcamp-exercises
 	cd nombre_de_carpeta_de_leccion
 	npm install
+
 
 ## Ejecución
 
